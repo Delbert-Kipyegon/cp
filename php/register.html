@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+<body>
+    <div class="form">
+        <h2>Sign up Form</h2>
+        <p>CP's</p>
+
+        <form action="">
+            <div class="error-text">Error</div>
+            <div class="grid-details">
+                <div class="input">
+                    <label>First Name</label>
+                    <input type="text" name="fname" placeholder="First Name" >
+                </div>
+                <div class="input">
+                    <label>Last Name</label>
+                    <input type="text" name="lname" placeholder="Last Name" >
+                </div>
+              </div>
+              <div class="input">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter Your Email" >
+            </div>
+              <div class="input">
+                <label>Phone</label>
+                <input type="phone" name="phone" placeholder="Phone Number">
+            </div>
+            
+            <div class="grid-details">
+                <div class="input">
+                    <label>Password</label>
+                    <input type="password" name="pass" placeholder="Password" required>
+                </div>
+                <div class="input">
+                    <label>Confirm Password</label>
+                    <input type="password" name="cpass" placeholder="Confirm Password" required>
+                </div>
+              </div>
+              <div class="profile-img">
+                <div class="file-upload">
+                    <input name="image" id="image-preview" type="file" class="file-input"  />
+                    <i class="fas fa-user-edit"></i>
+                </div>
+                </div>
+                <div class="submit">
+              <input type="submit" value="Signup Now" class="button">
+            </div>
+            </form>
+            <div class="link">Already signed up? <a href="login.html">Login now</a></div>
+
+    </div>
+    
+</body>
+</html>
